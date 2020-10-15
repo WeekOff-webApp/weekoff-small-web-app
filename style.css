@@ -9,7 +9,15 @@ body {
 } 
 
 #text5 {
-	margin-top: 100px;
-	color: red;
+	margin-top: 30px;
+	margin-left: 450px;
+	color: black;
 }
+
+#welc {
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+}
+
 

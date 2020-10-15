@@ -45,6 +45,19 @@ $("#about").one("click", function() {
 
 $("#upload").one("click", function() {
 	$("body").css("background-image", "url('images/j.jpg')").css("background-repeat", "repeat");
-	$("#text7").append("Upload Your CV here! <br><br> <input type='file'>");
-
+	$("#text7").append("Upload Your CV here! <br><br> <input type='file' id='input8'>");
 });
+
+var arr = [];
+function CVs() {
+	arr.push($("#input8").val());
+	return arr;
+}
+
+//====================================================================
+         // All CVs //
+ $("#all").one("click", function() {
+ 	$("body").css("background-image", "url('images/grey.jpg')").css("background-repeat", "repeat");
+ 	return arr;
+
+ });

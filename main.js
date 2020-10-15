@@ -18,6 +18,18 @@ $("#signUp").one("click", function() {
 
 //=================================================================
            // Home Button // 
-       
+$("#refresh").click( function() {
+	window.location.reload();
+});
+
+//==================================================================
+         // About Us //   
+$("#about").one("click", function() {
+	$("body").css("background-image", "url('images/grey.jpg')").css("background-repeat", "repeat");
+	$("#text6").append("<h1>Find Your Job Now...</h1>",
+                       "<p>You can easily find your dream job by this website!</p>",
+                       "<p>Connect the world's professionals to make them more productive and successful. Finding and getting a job can be a challenging process. Posting your CV on MAAB Jobs is the first step for finding all over the world.</p>",
+                       "<p>It`s free and easy! posting your CV is simple... upload it and you`re so closer to your JOB.</p>");
+}); 
 
             

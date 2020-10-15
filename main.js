@@ -59,5 +59,4 @@ function CVs() {
  $("#all").one("click", function() {
  	$("body").css("background-image", "url('images/grey.jpg')").css("background-repeat", "repeat");
  	return arr;
-
  });

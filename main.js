@@ -1,6 +1,6 @@
 //===============================================================
             // Sign Up //
-var array = [];
+
 $("#signUp").one("click", function() {
 	$("body").css("background-image", "url('images/grey.jpg')").css("background-repeat", "repeat");
 	$("#text5").append("<p id='welc'>Welcome to MAAB Jobs</p>");
@@ -16,12 +16,11 @@ $("#signUp").one("click", function() {
 	                       });
               }); 
 
+var array = [];
 function valuesOfSignUpInputs() {
 	array.push($("#input1").val(), $("#input2").val());
 	return array;
 } 
-
-
 
 //=================================================================
            // Home Button // 
@@ -44,3 +43,8 @@ $("#about").one("click", function() {
 //====================================================================
         // Upload Your CV here //
 
+$("#upload").one("click", function() {
+	$("body").css("background-image", "url('images/j.jpg')").css("background-repeat", "repeat");
+	$("#text7").append("Upload Your CV here! <br><br> <input type='file'>");
+
+});

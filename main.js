@@ -1,7 +1,7 @@
 //===============================================================
-            // sign up //
+            // Sign Up //
 $("#signUp").one("click", function() {
-	$("body").css("background-image", "url('images/j.jpg')").css("background-repeat", "repeat");
+	$("body").css("background-image", "url('images/grey.jpg')").css("background-repeat", "repeat");
 	$("#text5").append("<p id='welc'>Welcome to MAAB Jobs</p>");
 	$("#text5").append("<label>Username</label> <br> <input type='text' placeholder='Enter Username'> <br><br>",
 		                    "<label>Password</label> <br> <input type='password' placeholder='Enter Password' required> <br><br>",
@@ -12,7 +12,12 @@ $("#signUp").one("click", function() {
 	$("#click").one("click", function() {
 		$("body").css("background-image", "url('images/p.png')").css("background-repeat", "repeat");
 		$("#text5").hide();
-	                         });
-              });           
+	                       });
+              });  
+
+
+//=================================================================
+           // Home Button // 
+       
 
             
